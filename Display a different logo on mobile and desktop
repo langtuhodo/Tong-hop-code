@@ -1,0 +1,23 @@
+<style>
+/* hide mobile version by default */
+  .logo .mobile {
+    display: none;
+  }
+  /* when screen is less than 600px wide
+     show mobile version and hide desktop */
+  @media (max-width: 600px) {
+    .logo .mobile {
+      display: block;
+    }
+    .logo .desktop {
+      display: none;
+    }
+  }
+</style>
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<div class="logo">
+  <img src="https://1.bp.blogspot.com/-o4ttBRGISKg/YPAp2rXCoEI/AAAAAAAADa8/py9xeGhFnJ4CT2VWhg5EiSvxTefshvXNACLcBGAsYHQ/logo.png" class="desktop" />
+  <img src="https://1.bp.blogspot.com/-lJXEbqR5qqw/YPKAIQahP4I/AAAAAAAADew/MiwTEMRuNPkgafcArlT-dD0enB-7wqpvQCLcBGAsYHQ/s220/meovatdoisong220x30.png" class="mobile" />
+  https://lh3.googleusercontent.com/-CUJz2oNySgE/YPEOz82k0fI/AAAAAAAADcg/zWozx4oDXiMbWHEJeqzdcETAeL1kx0WewCEwYBhgLKtQDABHVOhw1y4d_pD9isTi8e8V83nZRp8r0MbhGoQXX5V_kuxddIAGgkyjp_ZjvAtLuv45-Ix-iWouDE3aWlTMYbBmB7LgypWyVM0jIBcn3BIKLvlVUrzPpUhiDMamBtsRes-aBsukG-Fwy7q3CpOWM5XlExjBnpSoEGkgHiUeZt31uCbrcCHArThtfeZURefpgrHc7qY3KIDTjuUooN7wUlfzjcnkhaTz3VEg5eBA9NZzolDbRIxC3dJl4QcygrAN2grmX7kaJvRJGH-nt43h4fniNzcVMDklx9VJPUOJ4VYZvk9rqp25zCW710x82VGTIKfTJ-cBPkvNSEJ8LZw0yg_Gfc9V8ABw65vssHgCmXIOTQFynpzD7hsMHmXjSiuBkkqMZTMBs20Zb7hFH0okO_x4sZjZqjhxi6kJghGBW0UTjD0bygHe1qfMcb7eMUMHi1dFPJToKxSzl2O-XrEJWubYjxN1sqva-5KtLTXa6Qf-eB9zRCf9QZ_lxbwDw2A_m-OfEUxNFgtprvSALAG1hbmy3WrQb1ABPMUu6qaj7QsOZUGpbVkv4nLc4qulblPnnPwqUZQHr0tOM0cUNR5nSsaEBUZxDOjI9i9DMpdzTgxIK_VC3MICQyocG/w140-h50-p/meovatdoisong.png
+</div>
