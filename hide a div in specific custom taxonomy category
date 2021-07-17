@@ -1,0 +1,3 @@
+<?php if ( !in_category( 'wedding' )) { ?>
+            <div class="pricestricker"><span itemprop="price" class="wlt_shortcode_price">$0</span></div> // This will be your default code
+   <?php } ?>
